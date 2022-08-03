@@ -1,0 +1,53 @@
+* {
+  margin: 1;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(90deg, rgb(164, 186, 245), rgb(156, 243, 175));
+}
+
+header {
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid rgb(113, 112, 112);
+}
+header table tr {
+  transition: all 0.2s ease;
+}
+header table tr td {
+  padding: 1rem;
+}
+header table h1 {
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main ul {
+  margin: 0;
+}
+main ul li {
+  padding: 0.2rem;
+  margin: 0.2rem 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 100%;
+}
+main ul p {
+  padding: 0.5rem 0.5rem;
+  margin: 0;
+  font-size: 1rem;
+  border: 2px solid black;
+}
+main ul p:hover {
+  background-color: #ebfca8;
+  transition: all 1s ease;
+}/*# sourceMappingURL=style.css.map */

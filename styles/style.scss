@@ -12,17 +12,22 @@ header {
 	height: 20vh;
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 	img {
-		margin: 2rem;
+		margin: 0rem 0rem 0rem 2rem;
 		border-radius: 50%;
 		width: 10vw;
 		height: 10vw;
 		transform: translate(-10%);
 	}
 	.headH1 {
-		h1 {
+		text-align: center;
+	}
+	.icon {
+		img {
+			height: 70px;
+			width: 70px;
 			margin: 0;
-			text-align: center;
 		}
 	}
 }
@@ -78,33 +83,27 @@ main {
 	}
 }
 
-footer {
-	display: flex;
-	justify-content: center;
-	a {
-		padding: 2rem;
-		img {
-			height: 80px;
-			width: 80px;
-		}
-	}
-}
 @media only screen and (max-width: 600px) {
 	header {
 		img {
-			margin: 2rem 1rem 2rem 2rem;
+			margin: 0rem 0rem 0rem 2rem;
 			border-radius: 50%;
-			width: 22vw;
-			height: 22vw;
+			width: 15vw;
+			height: 15vw;
 			transform: translate(-10%);
 		}
 		.headH1 {
-			h1 {
+			font-size: 0.5rem;
+		}
+		.icon {
+			img {
+				height: 10vw;
+				width: 10vw;
 				margin: 0;
-				font-size: 1.5rem;
 			}
 		}
 	}
+
 	main {
 		h2 {
 			margin: 0;
@@ -144,16 +143,6 @@ footer {
 			&:hover {
 				background-color: #b3e6f6;
 				transition: all 0.5s;
-			}
-		}
-	}
-
-	footer {
-		a {
-			padding: 1rem;
-			img {
-				height: 50px;
-				width: 50px;
 			}
 		}
 	}

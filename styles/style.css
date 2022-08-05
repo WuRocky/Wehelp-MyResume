@@ -28,7 +28,7 @@ header .headH1 {
 header .icon img {
   height: 70px;
   width: 70px;
-  margin: 0;
+  margin: 1rem;
 }
 
 hr {
@@ -84,6 +84,9 @@ main .pList:hover {
 }
 
 @media only screen and (max-width: 600px) {
+  header {
+    height: 13vh;
+  }
   header img {
     margin: 0rem 0rem 0rem 2rem;
     border-radius: 50%;

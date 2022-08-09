@@ -18,8 +18,8 @@ header {
 header .myPhoto_image {
   margin: 0rem 0rem 0rem 3rem;
   border-radius: 50%;
-  width: 8.5vw;
-  height: 8.5vw;
+  width: 8.5rem;
+  height: 8.5rem;
   transform: translate(-10%);
 }
 header .headH1 {
@@ -27,8 +27,8 @@ header .headH1 {
 }
 header .icon img {
   margin: 1rem;
-  height: 5vw;
-  width: 5vw;
+  height: 5rem;
+  width: 5rem;
 }
 
 hr {
@@ -101,11 +101,11 @@ main .Notion {
   header {
     height: 13vh;
   }
-  header img {
+  header .myPhoto_image {
     margin: 0rem 0rem 0rem 2rem;
     border-radius: 50%;
-    width: 15vw;
-    height: 15vw;
+    width: 3.5rem;
+    height: 3.5rem;
     transform: translate(-10%);
   }
   header .headH1 {

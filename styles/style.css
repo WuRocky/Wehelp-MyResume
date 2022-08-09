@@ -44,9 +44,7 @@ main {
   justify-content: center;
 }
 main h2 {
-  display: flex;
-  justify-content: center;
-  margin: 0 1rem;
+  margin: 0.2rem 1rem;
 }
 main p {
   margin: 0.5rem 0rem;

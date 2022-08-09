@@ -44,19 +44,16 @@ main {
   justify-content: center;
 }
 main h2 {
+  display: flex;
+  justify-content: center;
   margin: 0 1rem;
 }
 main p {
   margin: 0.5rem 0rem;
   padding: 0.5rem 0.5rem;
   font-weight: bold;
-  display: inline-block;
   border: 3px solid #333333;
   border-radius: 2% 6% 5% 4%/1% 1% 2% 4%;
-  text-transform: uppercase;
-  letter-spacing: 0.3ch;
-  position: relative;
-  transition: 0.2s all;
 }
 main p:hover {
   background-color: #b3e6f6;
@@ -64,12 +61,8 @@ main p:hover {
 }
 main .pList {
   margin: 0.5rem 0rem;
-  display: inline-block;
   border: 3px solid #333333;
   border-radius: 2% 6% 5% 4%/1% 1% 2% 4%;
-  text-transform: uppercase;
-  letter-spacing: 0.3ch;
-  position: relative;
 }
 main .pList p {
   border: none;

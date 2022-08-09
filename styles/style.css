@@ -54,7 +54,7 @@ main p {
   border-radius: 2% 6% 5% 4%/1% 1% 2% 4%;
 }
 main p:hover {
-  background-color: #b3e6f6;
+  background-color: #bbe9f7;
   transition: all 0.5s;
 }
 main .pList {
@@ -77,7 +77,7 @@ main .pList ol li {
   font-weight: bold;
 }
 main .pList:hover {
-  background-color: #b3e6f6;
+  background-color: #bbe9f7;
   transition: all 0.5s;
 }
 main .myBook {
